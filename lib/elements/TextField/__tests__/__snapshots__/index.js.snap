@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField renders correctly 1`] = `
+.c0 {
+  border: none;
+  border-bottom: solid 2px #636d7f;
+  color: #323f58;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+  padding-bottom: 0.5rem;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #9aa0ac;
+}
+
+.c0::-moz-placeholder {
+  color: #9aa0ac;
+}
+
+.c0:-ms-input-placeholder {
+  color: #9aa0ac;
+}
+
+.c0::placeholder {
+  color: #9aa0ac;
+}
+
+.c0:hover,
+.c0:focus {
+  border-bottom-color: #323f58;
+}
+
+<input
+  className="c0"
+  id="test"
+/>
+`;
+
+exports[`TextField should apply warning modifier 1`] = `
+.c0 {
+  border: none;
+  border-bottom: solid 2px #636d7f;
+  color: #323f58;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-size: 1rem;
+  outline: none;
+  padding-bottom: 0.5rem;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #967100;
+  border-bottom-color: #967100;
+}
+
+.c0::-webkit-input-placeholder {
+  color: #9aa0ac;
+}
+
+.c0::-moz-placeholder {
+  color: #9aa0ac;
+}
+
+.c0:-ms-input-placeholder {
+  color: #9aa0ac;
+}
+
+.c0::placeholder {
+  color: #9aa0ac;
+}
+
+.c0:hover,
+.c0:focus {
+  border-bottom-color: #323f58;
+}
+
+.c0:hover,
+.c0:focus {
+  border-bottom-color: #967100;
+}
+
+<input
+  className="c0"
+  id="test"
+/>
+`;

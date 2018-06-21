@@ -56,7 +56,7 @@ module.exports = {
     // status colors
     status: {
       danger: red,
-      default: chrome300,
+      default: chrome500,
       info: blue,
       success: green,
       warning: yellow

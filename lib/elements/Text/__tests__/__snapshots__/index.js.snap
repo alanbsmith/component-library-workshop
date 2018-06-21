@@ -1,0 +1,208 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text renders correctly 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply bold modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 700;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply extraSmall modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-size: 0.75rem;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply large modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-size: 1.125rem;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply light modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply medium modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-size: 1rem;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply normal modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 400;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply semiBold modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-weight: 600;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply small modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  font-size: 0.875rem;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply statusColorDanger modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #DD3800;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply statusColorDefault modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #9aa0ac;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply statusColorInfo modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #0975E0;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply statusColorSuccess modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #008900;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply statusColorWarning modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #967100;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply text modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #323f58;
+}
+
+<span
+  className="c0"
+/>
+`;
+
+exports[`Text should apply textLight modifier 1`] = `
+.c0 {
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2em;
+  color: #636d7f;
+}
+
+<span
+  className="c0"
+/>
+`;

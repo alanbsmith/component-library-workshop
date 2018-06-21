@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon renders correctly 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+/>
+`;
+
+exports[`Icon should apply statusColorDanger modifier 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+  color: #DD3800;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+  modifiers={
+    Array [
+      "statusColorDanger",
+    ]
+  }
+/>
+`;
+
+exports[`Icon should apply statusColorDefault modifier 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+  color: #9aa0ac;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+  modifiers={
+    Array [
+      "statusColorDefault",
+    ]
+  }
+/>
+`;
+
+exports[`Icon should apply statusColorInfo modifier 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+  color: #0975E0;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+  modifiers={
+    Array [
+      "statusColorInfo",
+    ]
+  }
+/>
+`;
+
+exports[`Icon should apply statusColorSuccess modifier 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+  color: #008900;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+  modifiers={
+    Array [
+      "statusColorSuccess",
+    ]
+  }
+/>
+`;
+
+exports[`Icon should apply statusColorWarning modifier 1`] = `
+.c0 {
+  color: #636d7f;
+  display: inline-block;
+  font-size: 1rem;
+  color: #967100;
+}
+
+<span
+  aria-hidden={true}
+  className="fa fa-times c0"
+  modifiers={
+    Array [
+      "statusColorWarning",
+    ]
+  }
+/>
+`;
