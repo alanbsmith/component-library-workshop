@@ -2,6 +2,7 @@ import React from "react";
 import renderer from "react-test-renderer";
 import theme from "../../config/theme";
 import { ThemeProvider } from "styled-components";
+import { shallow, mount } from 'enzyme';
 import "jest-styled-components";
 
 export function renderWithTheme(component) {
@@ -26,5 +27,23 @@ export function generateSnapshots(Component, props = {}) {
         })
       });
     }
+  });
+}
+
+export function shallowWithTheme(tree) {
+  const context = shallow(<ThemeProvider theme={theme} />)
+    .instance()
+    .getChildContext()
+  return shallow(tree, { context })
+}
+
+export function mountWithTheme(tree) {
+  const context = shallow(<ThemeProvider theme={theme} />)
+    .instance()
+    .getChildContext()
+
+  return mount(tree, {
+    context,
+    childContextTypes: ThemeProvider.childContextTypes // Needed so child components receive the theme prop
   });
 }
